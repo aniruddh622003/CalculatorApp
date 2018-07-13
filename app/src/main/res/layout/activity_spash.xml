@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e0e0e0"
+    android:fitsSystemWindows="false"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+
+    tools:context=".Spash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        app:srcCompat="@drawable/web_hi_res_512"
+        android:layout_centerInParent="true"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:text="Developed By"
+        android:textSize="10dp"
+        android:id="@+id/tv1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerInParent="true"
+        android:text="DieHardDroid"
+        android:textSize="30dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#4caf50"/>
+    </LinearLayout>
+</RelativeLayout>
